@@ -142,14 +142,14 @@ function initializeBridge() {
             }
 
             let unityLoader = document.createElement('script')
-            unityLoader.src = 'Build/PLayTable.loader.js'
+            unityLoader.src = 'Build/TABLI.loader.js'
             unityLoader.onload = () => {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/PLayTable.data.unityweb',
-                        frameworkUrl: 'Build/PLayTable.framework.js.unityweb',
-                        codeUrl: 'Build/PLayTable.wasm.unityweb',
+                        dataUrl: 'Build/TABLI.data.unityweb',
+                        frameworkUrl: 'Build/TABLI.framework.js.unityweb',
+                        codeUrl: 'Build/TABLI.wasm.unityweb',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'DefaultCompany',
                         productName: 'Tabli',
